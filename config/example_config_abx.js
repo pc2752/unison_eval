@@ -165,152 +165,152 @@ var TestConfig = {
       }
     },
     {
-    "Name": "Audio Quality 1",
-      "TestID": "id11",
-      "Files": {
-        "A": "audio/gl_4.mp3",
-        "B": "audio/npss_4.mp3",
-        "X": " ",
-        "Y": " ",
-      }
-    },
-    {
-      "Name": "Audio Quality 2",
-      "TestID": "id12",
-      "Files": {
-        "A": "audio/gl_1.mp3",
-        "B": "audio/ori_1.mp3",
-        "X": " ",
-        "Y": " ",
-      }
-    },
-    {
-      "Name": "Audio Quality 3",
-      "TestID": "id13",
-      "Files": {
-        "A": "audio/gc_4.mp3",
-        "B": "audio/gl_4.mp3",
-        "X": " ",
-        "Y": " ",
-      }
-    },
-    {
-      "Name": "Audio Quality 4",
-      "TestID": "id14",
-      "Files": {
-        "A": "audio/gl_2.mp3",
-        "B": "audio/npss_2.mp3",
-        "X": " ",
-        "Y": " ",
-      }
-    },
-    {
-      "Name": "Audio Quality 5",
+    "Name": "FS 1",
       "TestID": "id15",
       "Files": {
-        "A": "audio/gc_1.mp3",
-        "B": "audio/gl_1.mp3",
-        "X": " ",
+        "A": "audio/FS/op_13_12.wav",
+        "B": "audio/FS/opH_13_12.wav",
+        "X": "audio/FS/gt_13_12.wav",
+        "Y": " ",
+      }
+    },
+    {
+      "Name": "FS 2",
+      "TestID": "id16",
+      "Files": {
+        "A": "audio/FS/opH_13_5.wav",
+        "B": "audio/FS/opF_13_5.wav",
+        "X": "audio/FS/gt_13_5.wav",
+        "Y": " ",
+      }
+    },
+    {
+      "Name": "FS 3",
+      "TestID": "id17",
+      "Files": {
+        "A": "audio/FS/opH_14_1.wav",
+        "B": "audio/FS/op_14_1.wav",
+        "X": "audio/FS/gt_14_1.wav",
+        "Y": " ",
+      }
+    },
+    {
+      "Name": "FS 4",
+      "TestID": "id18",
+      "Files": {
+        "A": "audio/FS/opF_14_5.wav",
+        "B": "audio/FS/op_14_5.wav",
+        "X": "audio/FS/gt_14_5.wav",
+        "Y": " ",
+      }
+    },
+    {
+      "Name": "FS 5",
+      "TestID": "id19",
+      "Files": {
+        "A": "audio/FS/op_14_7.wav",
+        "B": "audio/FS/opF_14_7.wav",
+        "X": "audio/FS/gt_14_7.wav",
         "Y": " ",
       }
     },    
     {
-      "Name": "Audio Quality 6",
-      "TestID": "id15",
+      "Name": "FS 6",
+      "TestID": "id20",
       "Files": {
-        "A": "audio/gl_4.mp3",
-        "B": "audio/ori_4.mp3",
-        "X": " ",
+        "A": "audio/FS/opH_15_11.wav",
+        "B": "audio/FS/opF_15_11.wav",
+        "X": "audio/FS/gt_15_11.wav",
         "Y": " ",
       }
     },    //
     {
-      "Name": "Audio Quality 7",
-      "TestID": "id1",
+      "Name": "FS 7",
+      "TestID": "id21",
       "Files": {
-        "A": "audio/gl_2.mp3",
-        "B": "audio/gc_2.mp3",
-        "X": " ",
+        "A": "audio/FS/opF_15_7.wav",
+        "B": "audio/FS/opH_15_7.wav",
+        "X": "audio/FS/gt_15_7.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 8",
-      "TestID": "id2",
+      "Name": "FS 8",
+      "TestID": "id22",
       "Files": {
-        "A": "audio/ori_3.mp3",
-        "B": "audio/gl_3.mp3",
-        "X": " ",
+        "A": "audio/FS/op_16_1.wav",
+        "B": "audio/FS/opH_16_1.wav",
+        "X": "audio/FS/gt_16_1.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 9",
-      "TestID": "id3",
+      "Name": "FS 9",
+      "TestID": "id23",
       "Files": {
-        "A": "audio/npss_1.mp3",
-        "B": "audio/gl_1.mp3",
-        "X": " ",
+        "A": "audio/FS/opH_16_7.wav",
+        "B": "audio/FS/opF_16_7.wav",
+        "X": "audio/FS/gt_16_7.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 10",
-      "TestID": "id4",
+      "Name": "FS 10",
+      "TestID": "id24",
       "Files": {
-        "A": "audio/gl_3.mp3",
-        "B": "audio/gc_3.mp3",
-        "X": " ",
+        "A": "audio/FS/opH_1_2.wav",
+        "B": "audio/FS/op_1_2.wav",
+        "X": "audio/FS/gt_1_2.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 11",
-      "TestID": "id4",
+      "Name": "FS 11",
+      "TestID": "id25",
       "Files": {
-        "A": "audio/gl_3.mp3",
-        "B": "audio/npss_3.mp3",
-        "X": " ",
+        "A": "audio/FS/op_2_0.wav",
+        "B": "audio/FS/opF_2_0.wav",
+        "X": "audio/FS/gt_2_0.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 12",
-      "TestID": "id4",
+      "Name": "FS 12",
+      "TestID": "id26",
       "Files": {
-        "A": "audio/gl_5.mp3",
-        "B": "audio/npss_5.mp3",
-        "X": " ",
+        "A": "audio/FS/opF_4_15.wav",
+        "B": "audio/FS/opH_4_15.wav",
+        "X": "audio/FS/gt_4_15.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 13",
-      "TestID": "id4",
+      "Name": "FS 13",
+      "TestID": "id27",
       "Files": {
-        "A": "audio/gl_2.mp3",
-        "B": "audio/ori_2.mp3",
-        "X": " ",
+        "A": "audio/FS/opF_5_1.wav",
+        "B": "audio/FS/op_5_1.wav",
+        "X": "audio/FS/gt_5_1.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 14",
-      "TestID": "id4",
+      "Name": "FS 14",
+      "TestID": "id28",
       "Files": {
-        "A": "audio/gcc_5.mp3",
-        "B": "audio/gl_5.mp3",
-        "X": " ",
+        "A": "audio/FS/op_5_4.wav",
+        "B": "audio/FS/opH_5_4.wav",
+        "X": "audio/FS/gt_5_4.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Audio Quality 15",
-      "TestID": "id4",
+      "Name": "FS 15",
+      "TestID": "id29",
       "Files": {
-        "A": "audio/gl_5.mp3",
-        "B": "audio/ori_5.mp3",
-        "X": " ",
+        "A": "audio/FS/opF_5_8.wav",
+        "B": "audio/FS/op_5_8.wav",
+        "X": "audio/FS/gt_5_8.wav",
         "Y": " ",
       }
     },
