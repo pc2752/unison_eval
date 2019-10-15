@@ -48,9 +48,9 @@ var TestConfig = {
       "Name": "Kicks 4",
       "TestID": "id3",
       "Files": {
-        "A": "audio/Kicks/opF_3_14.wav",
-        "B": "audio/Kicks/op_3_14.wav",
-        "X": "audio/Kicks/gt_3_14.wav",
+        "A": "audio/Kicks/opF_1_12.wav",
+        "B": "audio/Kicks/op_1_12.wav",
+        "X": "audio/Kicks/gt_1_12.wav",
         "Y": " ",
       }
     },
@@ -98,69 +98,69 @@ var TestConfig = {
       "Name": "Kicks 9",
       "TestID": "id8",
       "Files": {
-        "A": "audio/npss_3.mp3",
-        "B": "audio/gl_3.mp3",
-        "X": " ",
+        "A": "audio/Kicks/opH_4_12.wav",
+        "B": "audio/Kicks/opF_4_12.wav",
+        "X": "audio/Kicks/gt_4_12.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 10",
-      "TestID": "id10",
+      "Name": "Kicks 10",
+      "TestID": "id9",
       "Files": {
-        "A": "audio/ori_1.mp3",
-        "B": "audio/gl_1.mp3",
-        "X": " ",
+        "A": "audio/Kicks/opH_0_14.wav",
+        "B": "audio/Kicks/op_0_14.wav",
+        "X": "audio/Kicks/gt_0_14.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 11",
+      "Name": "Kicks 11",
       "TestID": "id10",
       "Files": {
-        "A": "audio/gl_5.mp3",
-        "B": "audio/npss_5.mp3",
-        "X": " ",
+        "A": "audio/Kicks/op_5_0.wav",
+        "B": "audio/Kicks/opF_5_0.wav",
+        "X": "audio/Kicks/gt_5_0.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 12",
-      "TestID": "id10",
+      "Name": "Kicks 12",
+      "TestID": "id11",
       "Files": {
-        "A": "audio/gc_3.mp3",
-        "B": "audio/gl_3.mp3",
-        "X": " ",
+        "A": "audio/Kicks/opF_19_8.wav",
+        "B": "audio/Kicks/opH_19_8.wav",
+        "X": "audio/Kicks/gt_19_8.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 13",
-      "TestID": "id10",
+      "Name": "Kicks 13",
+      "TestID": "id12",
       "Files": {
-        "A": "audio/ori_3.mp3",
-        "B": "audio/gl_3.mp3",
-        "X": " ",
+        "A": "audio/Kicks/opF_0_7.wav",
+        "B": "audio/Kicks/op_0_7.wav",
+        "X": "audio/Kicks/gt_0_7.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 14",
-      "TestID": "id10",
+      "Name": "Kicks 14",
+      "TestID": "id13",
       "Files": {
-        "A": "audio/npss_4.mp3",
-        "B": "audio/gl_4.mp3",
-        "X": " ",
+        "A": "audio/Kicks/op_18_15.wav",
+        "B": "audio/Kicks/opH_18_15.wav",
+        "X": "audio/Kicks/gt_18_15.wav",
         "Y": " ",
       }
     },
     {
-      "Name": "Intelligibility 15",
-      "TestID": "id10",
+      "Name": "Kicks 15",
+      "TestID": "id14",
       "Files": {
-        "A": "audio/gl_5.mp3",
-        "B": "audio/gcc_5.mp3",
-        "X": " ",
+        "A": "audio/Kicks/opF_19_12.wav",
+        "B": "audio/Kicks/op_19_12.wav",
+        "X": "audio/Kicks/gt_19_12.wav",
         "Y": " ",
       }
     },
