@@ -839,7 +839,7 @@ $.extend({ alert: function (message, title) {
         EvalResults.push(UserObj)
 
         var testHandle = this;
-        console.log(estHandle.TestConfig.BeaqleServiceURL);
+        console.log(testHandle.TestConfig.BeaqleServiceURL);
         $.ajax({
                     type: "POST",
                     timeout: 5000,
