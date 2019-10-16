@@ -870,17 +870,17 @@ $.extend({ alert: function (message, title) {
             .fail (function (xhr, ajaxOptions, thrownError){
                     $('#SubmitError').show();
                     $('#SubmitError > #ErrorCode').html(xhr.status);
-                    $("#SubmitBox > .submitOnline").hide();
-                    if (this.TestConfig.SupervisorContact) {
-                        $("#SubmitBox > .submitEmail").show();
-                        $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
-                    }
-                    if (testHandle.browserFeatures.webAPIs['Blob']) {
-                        $("#SubmitBox > .submitDownload").show();
-                    } else {
-                        $("#SubmitBox > .submitDownload").hide();
-                        $("#ResultsBox").show();
-                    }
+                    // $("#SubmitBox > .submitOnline").hide();
+                    // if (this.TestConfig.SupervisorContact) {
+                    //     $("#SubmitBox > .submitEmail").show();
+                    //     $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
+                    // }
+                    // if (testHandle.browserFeatures.webAPIs['Blob']) {
+                    //     $("#SubmitBox > .submitDownload").show();
+                    // } else {
+                    //     $("#SubmitBox > .submitDownload").hide();
+                    //     $("#ResultsBox").show();
+                    // }
                 });
         $('#BtnSubmitData').button('option',{ icons: { primary: 'load-indicator' }});
 
