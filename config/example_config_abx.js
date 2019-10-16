@@ -9,7 +9,7 @@ var TestConfig = {
   "EnableOnlineSubmission": true,
   "BeaqleServiceURL": "/perc_synth_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
-  "RandomizeTestOrder": false,
+  "RandomizeTestOrder": true,
   "MaxTestsPerRun": 30,
   "AudioRoot": "",
   "Testsets": [
