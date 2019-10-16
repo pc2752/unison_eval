@@ -5,7 +5,7 @@ var TestConfig = {
   "LoopByDefault": true,
   "ShowFileIDs": false,
   "ShowResults": false,
-  "EnableABLoop": true,
+  "EnableABLoop": false,
   "EnableOnlineSubmission": true,
   "BeaqleServiceURL": "/perc_synth_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
