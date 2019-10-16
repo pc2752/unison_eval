@@ -1322,7 +1322,7 @@ AbxTest.prototype.createTestDOM = function (TestIdx) {
             cell[4].innerHTML = "&larr; 请在A，B两个素材中选择包含背景音乐最少的那一个。你可以听“Mixture”素材来体会背景音乐。";
 
         } else{
-            cell[4].innerHTML = "&larr; Please select the clip which you feel has better quality. Please select 'no pref.' if you think both have similar quality";
+            cell[4].innerHTML = "&larr; Please select the clip which you feel has better quality and is closest to the 'Reference' sound. Please select 'no pref.' if you think both have similar quality";
 
         }
 
