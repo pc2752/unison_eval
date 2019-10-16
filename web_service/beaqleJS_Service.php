@@ -16,6 +16,7 @@
 
     // check if data was received by a POST request
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        echo "Self check: <ul>";
 
         // allow requests from any domain
         header("Access-Control-Allow-Origin: *");
