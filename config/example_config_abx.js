@@ -2,10 +2,10 @@
 // configure the test here
 var TestConfig = {
   "TestName": "Percussive Sound Synthesis Evaluation",
-  "LoopByDefault": true,
+  "LoopByDefault": false,
   "ShowFileIDs": false,
   "ShowResults": false,
-  "EnableABLoop": false,
+  "EnableABLoop": true,
   "EnableOnlineSubmission": true,
   "BeaqleServiceURL": "/perc_synth_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
