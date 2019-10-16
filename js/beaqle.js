@@ -839,7 +839,7 @@ $.extend({ alert: function (message, title) {
         EvalResults.push(UserObj)
 
         var testHandle = this;
-        console.log(BeaqleServiceURL);
+        console.log(estHandle.TestConfig.BeaqleServiceURL);
         $.ajax({
                     type: "POST",
                     timeout: 5000,
@@ -853,18 +853,18 @@ $.extend({ alert: function (message, title) {
                     } else {
                         $('#SubmitError').show();
                         $('#SubmitError > #ErrorCode').html(response.message);
-                        $("#SubmitBox > .submitOnline").hide();
-                        if (this.TestConfig.SupervisorContact) {
-                            $("#SubmitBox > .submitEmail").show();
-                            $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
-                        }
-                        if (testHandle.browserFeatures.webAPIs['Blob']) {
-                            $("#SubmitBox > .submitDownload").show();
-                        } else {
-                            $("#SubmitBox > .submitDownload").hide();
-                            $("#ResultsBox").show();
-                        }
-                        $('#SubmitData').button('option',{ icons: { primary: 'ui-icon-alert' }});
+                        // $("#SubmitBox > .submitOnline").hide();
+                        // if (this.TestConfig.SupervisorContact) {
+                        //     $("#SubmitBox > .submitEmail").show();
+                        //     $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
+                        // }
+                        // if (testHandle.browserFeatures.webAPIs['Blob']) {
+                        //     $("#SubmitBox > .submitDownload").show();
+                        // } else {
+                        //     $("#SubmitBox > .submitDownload").hide();
+                        //     $("#ResultsBox").show();
+                        // }
+                        // $('#SubmitData').button('option',{ icons: { primary: 'ui-icon-alert' }});
                     }
                 })
             .fail (function (xhr, ajaxOptions, thrownError){
