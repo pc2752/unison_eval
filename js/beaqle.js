@@ -1065,13 +1065,47 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
                 this.createFileMapping(TestIdx);
         }
 
+        if ((this.TestConfig.Testsets[TestIdx].Name == "UTS1")) {
+            $.alert("For the following tests, please rate the Test Items in terms of similarity of melody and lyrics to the Reference")
+            // return true;
+        } else if ((this.TestConfig.Testsets[TestIdx].Name == "STU1")) {
+            $.alert("For the following tests, please rate the Test Items in terms of similarity to the unison singing as shown in the Reference")
+
+        } else if ((this.TestConfig.Testsets[TestIdx].Name == "QI1")) {
+            $.alert("For the following tests, please rate the Test Items in terms of audio quality with respect to the Reference")
+
+        } else{
+            // cell[4].innerHTML = "&larr; Please select preferred clip in terms of audio quality, in comparision to the refernce,<br/>or select <i>no pref.</i> for no clear preference.";
+
+        }
+
         // create new test table
         var tab = document.createElement('table');
-        tab.setAttribute('id','TestTable');
+
+        var TestName = this.TestConfig.Testsets[TestIdx].Name.substring(0, 2)
+
 
         var fileID = "";
         var row = new Array();
         var cell = new Array();
+        // $.alert(booboo)
+
+        // if ((TestName == "UT")) {
+        //     tab.innerHTML = "Please select preferred clip in terms of Intelligibility, in comparision to the reference,<br/>or select <i>no pref.</i> for no clear preference.";  
+        //     // return true;
+        // } else if ((TestName == "Se")) {
+        //     tab.innerHTML = "&larr; Please select preferred clip in terms of source separation, in comparision to the reference. The preffered clip in this case should not have elements from the mixture.<br/>or select <i>no pref.</i> for no clear preference.";  
+
+        // } else{
+        //     tab.innerHTML = "&larr; Please select preferred clip in terms of audio quality, in comparision to the refernce,<br/>or select <i>no pref.</i> for no clear preference.";  
+
+        // }     
+
+
+        tab.setAttribute('id','TestTable');
+
+
+
 
         // add reference
         fileID = "Reference";
@@ -1084,7 +1118,8 @@ MushraTest.prototype.createTestDOM = function (TestIdx) {
         cell[2].innerHTML = "<button class='stopButton'>Stop</button>";
         cell[3] = row.insertCell(-1);
         cell[3].innerHTML = "<img id='ScaleImage' src='"+this.TestConfig.RateScalePng+"'/>";
-
+        cell[4] = row.insertCell(-1);
+ 
         this.addAudio(TestIdx, fileID, fileID);
 
         // add spacing
