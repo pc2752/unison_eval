@@ -13,8 +13,8 @@ var TestConfig = {
   "EnableOnlineSubmission": false,
   "BeaqleServiceURL": "",
   "SupervisorContact": "",
-  "RandomizeTestOrder": true,
-  "MaxTestsPerRun": 2,
+  "RandomizeTestOrder": false,
+  "MaxTestsPerRun": 15,
   "RequireMaxRating": false,
   "AudioRoot": "",
   "Testsets": [
@@ -23,12 +23,12 @@ var TestConfig = {
       "Name": "Separation 1",
       "TestID": "id1_1",
       "Files": {
-            "Reference": "audio/21063_chorus_1_mix.mp3",
-            "1": "audio/21063_chorus_1_DCS.mp3",
-            "2": "audio/21063_chorus_1_FASST.mp3",
-            "3": "audio/21063_chorus_1_predf0.mp3",
-            "4": "audio/21063_chorus_1_orif0.mp3",
-            "anchor": "audio/21063_chorus_1_ori.mp3",
+            "Reference": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "1": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "2": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "3": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "4": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "anchor":"audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
         }
     },
     {
@@ -95,12 +95,12 @@ var TestConfig = {
       "Name": "Separation 3",
       "TestID": "id1_7",
       "Files": {
-            "Reference": "audio/31101_verse_1_mix.mp3",
-            "1": "audio/31101_verse_1_DCS.mp3",
-            "2": "audio/31101_verse_1_FASST.mp3",
-            "3": "audio/31101_verse_1_predf0.mp3",
-            "4": "audio/31101_verse_1_orif0.mp3",
-            "anchor": "audio/31101_verse_1_ori.mp3",
+            "Reference": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "1": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "2": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "3": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "4": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "anchor":"audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
         }
     },
     {
@@ -131,12 +131,12 @@ var TestConfig = {
       "Name": "Separation 4",
       "TestID": "id1_10",
       "Files": {
-            "Reference": "audio/31114_verse_1_mix.mp3",
-            "1": "audio/31114_verse_1_DCS.mp3",
-            "2": "audio/31114_verse_1_FASST.mp3",
-            "3": "audio/31114_verse_1_predf0.mp3",
-            "4": "audio/31114_verse_1_orif0.mp3",
-            "anchor": "audio/31114_verse_1_ori.mp3",
+            "Reference": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "1": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "2": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "3": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "4": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
+            "anchor":"audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
         }
     },
     {

@@ -9,7 +9,7 @@ var TestConfig = {
   "EnableOnlineSubmission": true,
   "BeaqleServiceURL": "/perc_synth_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
-  "RandomizeTestOrder": true,
+  "RandomizeTestOrder": false,
   "MaxTestsPerRun": 30,
   "AudioRoot": "",
   "Testsets": [
@@ -18,7 +18,7 @@ var TestConfig = {
       "Name": "Kicks 1",
       "TestID": "id0",
       "Files": {
-        "A": "audio/Kicks/op_4_9.wav",
+        "A": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
         "B": "audio/Kicks/opH_4_9.wav",
         "X": "audio/Kicks/gt_4_9.wav",
         "Y": " ",
