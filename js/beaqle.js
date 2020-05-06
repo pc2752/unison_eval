@@ -838,14 +838,14 @@ $.extend({ alert: function (message, title) {
         var EvalResults = this.TestState.EvalResults;
         console.log(EvalResults)
         EvalResults.push(UserObj)
-        console.log(EvalResults)
+        console.log(Eva)
 
         var testHandle = this;
         $.ajax({
                     type: "POST",
                     timeout: 5000,
-                    url: "/unison_eval/web_service/beaqleJS_Service.php",
-                    data: {'testresults':"haha"},
+                    url: testHandle.TestConfig.BeaqleServiceURL,
+                    data: {'testresults':JSON.stringify(EvalResults)},
                     dataType: 'json'})
 
             .done( function (response){
@@ -871,6 +871,7 @@ $.extend({ alert: function (message, title) {
                 })
             .fail (function (xhr, ajaxOptions, thrownError){
                     $('#SubmitError').show();
+                    console.log("coocoo")
                     console.log(thrownError)
                     $('#SubmitError > #ErrorCode').html(xhr.status);
                     $("#SubmitBox > .submitOnline").hide();
