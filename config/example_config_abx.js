@@ -18,9 +18,9 @@ var TestConfig = {
       "Name": "Kicks 1",
       "TestID": "id0",
       "Files": {
-        "1": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0.wav",
-        "2": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0_noise.wav",
-        "2": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0_noise.wav",
+        "A": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0.wav",
+        "B": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0_noise.wav",
+        "X": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0_noise.wav",
         "Y": " ",
       }
     }
