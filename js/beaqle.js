@@ -845,7 +845,7 @@ $.extend({ alert: function (message, title) {
                     type: "POST",
                     timeout: 5000,
                     url: testHandle.TestConfig.BeaqleServiceURL,
-                    data: JSON.stringify({'testresults':EvalResults}),
+                    data: {'testresults':EvalResults},
                     dataType: 'json'})
 
             .done( function (response){
