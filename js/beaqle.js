@@ -826,17 +826,17 @@ $.extend({ alert: function (message, title) {
     // submit test results to server
     ListeningTest.prototype.SubmitTestResults = function () {
 
-        var UserObj = new Object();
-        UserObj.UserName = $('#UserName').val();
-        UserObj.UserEmail = $('#UserEMail').val();
-        UserObj.UserComment = $('#UserComment').val();
-        UserObj.Age = $('#Age').val();
-        UserObj.Gender = $('#Gender').val();
-        UserObj.Musical_Training = $('#Musical_Training').val();
-        UserObj.Language = $('#Language').val();
+        // var UserObj = new Object();
+        // UserObj.UserName = $('#UserName').val();
+        // UserObj.UserEmail = $('#UserEMail').val();
+        // UserObj.UserComment = $('#UserComment').val();
+        // UserObj.Age = $('#Age').val();
+        // UserObj.Gender = $('#Gender').val();
+        // UserObj.Musical_Training = $('#Musical_Training').val();
+        // UserObj.Language = $('#Language').val();
 
         var EvalResults = this.TestState.EvalResults;
-        EvalResults.push(UserObj)
+        // EvalResults.push(UserObj)
 
         var testHandle = this;
         $.ajax({
