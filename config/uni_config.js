@@ -14,7 +14,7 @@ var TestConfig = {
   "BeaqleServiceURL": "/unison_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
   "RandomizeTestOrder": false,
-  "MaxTestsPerRun": 1,
+  "MaxTestsPerRun": 24,
   "RequireMaxRating": false,
   "AudioRoot": "",
   "Testsets": [
