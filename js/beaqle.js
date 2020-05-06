@@ -826,18 +826,19 @@ $.extend({ alert: function (message, title) {
     // submit test results to server
     ListeningTest.prototype.SubmitTestResults = function () {
 
-        // var UserObj = new Object();
-        // UserObj.UserName = $('#UserName').val();
-        // UserObj.UserEmail = $('#UserEMail').val();
-        // UserObj.UserComment = $('#UserComment').val();
-        // UserObj.Age = $('#Age').val();
-        // UserObj.Gender = $('#Gender').val();
-        // UserObj.Musical_Training = $('#Musical_Training').val();
-        // UserObj.Language = $('#Language').val();
+        var UserObj = new Object();
+        UserObj.UserName = $('#UserName').val();
+        UserObj.UserEmail = $('#UserEMail').val();
+        UserObj.UserComment = $('#UserComment').val();
+        UserObj.Age = $('#Age').val();
+        UserObj.Gender = $('#Gender').val();
+        UserObj.Musical_Training = $('#Musical_Training').val();
+        UserObj.Language = $('#Language').val();
 
         var EvalResults = this.TestState.EvalResults;
-        // console.log(EvalResults)
-        // EvalResults.push(UserObj)
+        console.log(EvalResults)
+        EvalResults.push(UserObj)
+        console.log(EvalResults)
 
         var testHandle = this;
         $.ajax({
@@ -845,7 +846,8 @@ $.extend({ alert: function (message, title) {
                     timeout: 5000,
                     url: testHandle.TestConfig.BeaqleServiceURL,
                     data: {'testresults':JSON.stringify(EvalResults)},
-                    dataType: 'json'})
+                    dataType: 'json'},
+                    error: function(req, err){ console.log('my message' + err); })
 
             .done( function (response){
                     if (response.error==false) {
