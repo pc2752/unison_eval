@@ -836,6 +836,7 @@ $.extend({ alert: function (message, title) {
         // UserObj.Language = $('#Language').val();
 
         var EvalResults = this.TestState.EvalResults;
+        console.log(EvalResults)
         // EvalResults.push(UserObj)
 
         var testHandle = this;
