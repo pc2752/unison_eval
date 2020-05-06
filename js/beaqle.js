@@ -838,14 +838,14 @@ $.extend({ alert: function (message, title) {
         var EvalResults = this.TestState.EvalResults;
         console.log(EvalResults)
         EvalResults.push(UserObj)
-        console.log(EvalResults)
+        // console.log(EvalResults)
 
         var testHandle = this;
         $.ajax({
                     type: "POST",
                     timeout: 5000,
                     url: testHandle.TestConfig.BeaqleServiceURL,
-                    data: {'testresults':EvalResults},
+                    // data: {'testresults':JSON.stringify(EvalResults)},
                     dataType: 'json'})
 
             .done( function (response){
