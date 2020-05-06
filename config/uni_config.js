@@ -10,7 +10,7 @@ var TestConfig = {
   "ShowResults": false,
   "LoopByDefault": false,
   "EnableABLoop": true,
-  "EnableOnlineSubmission": false,
+  "EnableOnlineSubmission": true,
   "BeaqleServiceURL": "",
   "SupervisorContact": "",
   "RandomizeTestOrder": false,
