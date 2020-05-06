@@ -844,7 +844,7 @@ $.extend({ alert: function (message, title) {
         $.ajax({
                     type: "POST",
                     timeout: 5000,
-                    url: testHandle.TestConfig.BeaqleServiceURL,
+                    // url: testHandle.TestConfig.BeaqleServiceURL,
                     // data: {'testresults':JSON.stringify(EvalResults)},
                     dataType: 'json'})
 
