@@ -11,7 +11,7 @@ var TestConfig = {
   "LoopByDefault": false,
   "EnableABLoop": true,
   "EnableOnlineSubmission": true,
-  "BeaqleServiceURL": "",
+  "BeaqleServiceURL": "/unison_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
   "RandomizeTestOrder": false,
   "MaxTestsPerRun": 24,
