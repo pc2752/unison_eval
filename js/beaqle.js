@@ -844,7 +844,7 @@ $.extend({ alert: function (message, title) {
         $.ajax({
                     type: "POST",
                     timeout: 5000,
-                    url: testHandle.TestConfig.BeaqleServiceURL,
+                    url: "/unison_eval/web_service/beaqleJS_Service.php",
                     data: {'testresults':"haha"},
                     dataType: 'json'})
 
