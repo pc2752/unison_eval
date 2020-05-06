@@ -846,7 +846,7 @@ $.extend({ alert: function (message, title) {
                     url: testHandle.TestConfig.BeaqleServiceURL,
                     data: {'testresults':JSON.stringify(EvalResults)},
                     dataType: 'json'})
-        
+
             .done( function (response){
                     if (response.error==false) {
                         $('#SubmitBox').html("Your submission was successful.<br/><br/>");
@@ -870,13 +870,13 @@ $.extend({ alert: function (message, title) {
                 })
             .fail (function (xhr, ajaxOptions, thrownError){
                     $('#SubmitError').show();
-                    console.error(thrownError)
+                    console.log(thrownError)
                     $('#SubmitError > #ErrorCode').html(xhr.status);
                     $("#SubmitBox > .submitOnline").hide();
-                    if (this.TestConfig.SupervisorContact) {
-                        $("#SubmitBox > .submitEmail").show();
-                        $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
-                    }
+                    // if (this.TestConfig.SupervisorContact) {
+                    //     $("#SubmitBox > .submitEmail").show();
+                    //     $(".supervisorEmail").html(this.TestConfig.SupervisorContact);
+                    // }
                     if (testHandle.browserFeatures.webAPIs['Blob']) {
                         $("#SubmitBox > .submitDownload").show();
                     } else {
