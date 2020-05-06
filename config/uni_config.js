@@ -5,7 +5,7 @@ var TestConfig = {
   "RateScaleBgPng": "img/scale_abs_background.png",
   "RateMinValue": 0,
   "RateMaxValue": 100,
-  "RateDefaultValue":0,
+  "RateDefaultValue":50,
   "ShowFileIDs": false,
   "ShowResults": false,
   "LoopByDefault": false,
@@ -14,7 +14,7 @@ var TestConfig = {
   "BeaqleServiceURL": "/unison_eval/web_service/beaqleJS_Service.php",
   "SupervisorContact": "",
   "RandomizeTestOrder": false,
-  "MaxTestsPerRun": 24,
+  "MaxTestsPerRun": 1,
   "RequireMaxRating": false,
   "AudioRoot": "",
   "Testsets": [
