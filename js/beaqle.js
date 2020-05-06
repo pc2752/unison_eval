@@ -836,7 +836,7 @@ $.extend({ alert: function (message, title) {
         // UserObj.Language = $('#Language').val();
 
         var EvalResults = this.TestState.EvalResults;
-        console.log(EvalResults)
+        // console.log(EvalResults)
         // EvalResults.push(UserObj)
 
         var testHandle = this;
@@ -846,6 +846,7 @@ $.extend({ alert: function (message, title) {
                     url: testHandle.TestConfig.BeaqleServiceURL,
                     data: {'testresults':JSON.stringify(EvalResults)},
                     dataType: 'json'})
+        
             .done( function (response){
                     if (response.error==false) {
                         $('#SubmitBox').html("Your submission was successful.<br/><br/>");
