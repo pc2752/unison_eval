@@ -838,7 +838,6 @@ $.extend({ alert: function (message, title) {
         var EvalResults = this.TestState.EvalResults;
         console.log(EvalResults)
         EvalResults.push(UserObj)
-        console.log(Eva)
 
         var testHandle = this;
         $.ajax({
