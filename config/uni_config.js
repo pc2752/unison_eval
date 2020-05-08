@@ -20,291 +20,147 @@ var TestConfig = {
   "Testsets": [
     //    
     {
-      "Name": "UTS1",
-      "TestID": "uts_ros_alto",
+      "Name": "Please rate the Test Items in terms of audio quality with respect to the Reference",
+      "TestID": "qi1",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_alto_ros.wav",
-            "1": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_alto1_ros.wav",
+            "Reference": "audio/uni_alto_ros.mp3",
+            "1": "audio/uni_alto_ros_SIN.mp3",
+            "2": "audio/sol_alto1_ro_0.5_4_0_unison.mp3",
+            "3": "audio/sol_alto1_ro_0.5_4_5_unison.mp3",
+            // "4":"audio/sol_alto1_loc.wav",
+            "anchor":"audio/sol_tenor1_ros.mp3",
         }
     },
     {
-      "Name": "UTS2",
-      "TestID": "uts_ros_tenor",
+      "Name": "Please rate the Test Items in terms of audio quality with respect to the Reference",
+      "TestID": "qi2",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_tenor_ros.wav",
-            "1": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_tenor_nin_SIN_YAM_f0_uni_tenor_nin_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_tenor1_ros.wav",
+            "Reference": "audio/uni_tenor_ros.mp3",
+            "1": "audio/uni_tenor_ros_SIN.mp3",
+            "2": "audio/sol_tenor1_ro_0.5_4_0_unison.mp3",
+            "3": "audio/sol_tenor1_ro_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_tenor1_loc.wav",
+            "anchor":"audio/sol_alto1_ros.mp3",
         }
     },
     {
-      "Name": "UTS3",
-      "TestID": "uts_nin_soprano",
+      "Name": "Please rate the Test Items in terms of audio quality with respect to the Reference",
+      "TestID": "qi3",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_soprano_nin.wav",
-            "1": "audio/output_unison_avg/uni_tenor_nin_SIN_YAM_f0_uni_tenor_nin_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_tenor_nin_SIN_YAM_f0_uni_tenor_nin_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_tenor_nin_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_soprano1_nin.wav",
+            "Reference": "audio/uni_soprano_nin.mp3",
+            "1": "audio/uni_soprano_nin_SIN.mp3",
+            "2": "audio/sol_soprano1_ni_0.5_4_0_unison.mp3",
+            "3": "audio/sol_soprano1_ni_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_soprano1_ros.wav",
+            "anchor":"audio/sol_bass1_loc.mp3",
         }
     },
     {
-      "Name": "UTS4",
-      "TestID": "uts_nin_bass",
+      "Name": "Please rate the Test Items in terms of audio quality with respect to the Reference",
+      "TestID": "qi4",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_bass_nin.wav",
-            "1": "audio/output_unison_avg/uni_bass_nin_SIN_YAM_f0_uni_bass_nin_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_bass_nin_SIN_YAM_f0_uni_bass_nin_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_bass_ros_SIN_YAM_f0_uni_bass_ros_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_bass_nin_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_bass1_nin.wav",
+            "Reference": "audio/uni_bass_loc.mp3",
+            "1": "audio/uni_bass_loc_SIN.mp3",
+            "2": "audio/sol_bass1_lo_0.5_4_0_unison.mp3",
+            "3": "audio/sol_bass1_lo_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_bass1_nin.wav",
+            "anchor":"audio/sol_soprano1_nin.mp3",
         }
     },
     {
-      "Name": "UTS5",
-      "TestID": "uts_loc_tenor",
+      "Name": "Please rate the Test Items in terms of unison singing as heard in the Reference",
+      "TestID": "uni1",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_tenor_loc.wav",
-            "1": "audio/output_unison_avg/uni_tenor_loc_SIN_YAM_f0_uni_tenor_loc_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_tenor_loc_SIN_YAM_f0_uni_tenor_loc_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_tenor_loc_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_tenor1_loc.wav",
-        }
-    },
-    {  
-      "Name": "UTS6",
-      "TestID": "uts_ros_soprano",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_soprano_ros.wav",
-            "1": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_tenor_nin_SIN_YAM_f0_uni_tenor_nin_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_soprano1_ros.wav",
+            "Reference": "audio/uni_soprano_ros.mp3",
+            "1": "audio/sol_soprano1_ro_0_4_5_unison.mp3",
+            "2": "audio/sol_soprano1_ro_0.5_4_0_unison.mp3",
+            "3": "audio/sol_soprano1_ro_0.5_4_5_unison.mp3",
+            "4": "audio/sol_soprano1_ro_0.5_4_5_unison_notimbre.mp3",
+            "anchor":"audio/uni_alto_nin.mp3",
         }
     },
     {
-      "Name": "UTS7",
-      "TestID": "uts_loc_bass",
+      "Name": "Please rate the Test Items in terms of unison singing as heard in the Reference",
+      "TestID": "uni2",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_bass_loc.wav",
-            "1": "audio/output_unison_avg/uni_bass_loc_SIN_YAM_f0_uni_bass_loc_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_bass_loc_SIN_YAM_f0_uni_bass_loc_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_bass_loc_SIN_YAM_f0_uni_bass_loc_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_bass_loc_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_bass1_loc.wav",
-        }
-    },  
-    {
-      "Name": "UTS8",
-      "TestID": "uts_nin_alto",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_alto_nin.wav",
-            "1": "audio/output_unison_avg/uni_alto_nin_SIN_YAM_f0_uni_alto_nin_CREPE.f0.wav",
-            "2": "audio/output_unison_avg/uni_alto_nin_SIN_YAM_f0_uni_alto_nin_CREPE.f0_noise.wav",
-            "3": "audio/output_unison_avg/uni_alto_ros_SIN_YAM_f0_uni_alto_ros_CREPE.f0.wav",
-            "4": "audio/output_unison_avg/uni_alto_nin_SIN_YAM_SACf0.wav",
-            "anchor":"audio/Unison_analysis_examples/sol_alto1_nin.wav",
+            "Reference": "audio/uni_alto_nin.mp3",
+            "1": "audio/sol_alto1_ni_0_4_5.mp3",
+            "2": "audio/sol_alto1_ni_0.5_4_0.mp3",
+            "3": "audio/sol_alto1_ni_0.5_4_5.mp3",
+            "4": "audio/sol_alto1_ni_0.5_4_5_notimbre.mp3",
+            "anchor":"audio/uni_bass_nin.mp3",
         }
     },
     {
-      "Name": "STU1",
-      "TestID": "stu_ros_soprano",
+      "Name": "Please rate the Test Items in terms of unison singing as heard in the Reference",
+      "TestID": "uni3",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_soprano_ros.wav",
-            "1": "audio/outputs_uni/sol_soprano1_ro_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_soprano1_ro_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_soprano1_ro_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_soprano1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_soprano1_ro_0.5_4_5_unison_notimbre.wav",
+            "Reference": "audio/uni_bass_nin.mp3",
+            "1": "audio/sol_bass1_ni_0_4_5.mp3",
+            "2": "audio/sol_bass1_ni_0.5_4_0.mp3",
+            "3": "audio/sol_bass1_ni_0.5_4_5.mp3",
+            "4": "audio/sol_bass1_ni_0.5_4_5_notimbre.mp3",
+            "anchor":"audio/uni_soprano_ros.mp3",
         }
     },
     {
-      "Name": "STU2",
-      "TestID": "stu_nin_alto",
+      "Name": "Please rate the Test Items in terms of unison singing as heard in the Reference",
+      "TestID": "uni4",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_alto_nin.wav",
-            "1": "audio/outputs_uni/sol_alto1_ni_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_alto1_ni_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_alto1_ni_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_alto1_ni_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_alto1_ni_0.5_4_5_unison_notimbre.wav",
+            "Reference": "audio/uni_tenor_loc.mp3",
+            "1": "audio/sol_tenor1_lo_0_4_5.mp3",
+            "2": "audio/sol_tenor1_lo_0.5_4_0.mp3",
+            "3": "audio/sol_tenor1_lo_0.5_4_5.mp3",
+            "4": "audio/sol_tenor1_lo_0.5_4_5_notimbre.mp3",
+            "anchor":"audio/uni_alto_nin.mp3",
         }
     },
     {
-      "Name": "STU3",
-      "TestID": "stu_nin_bass",
+      "Name": "Please rate the Test Items in terms of similarity of melody and lyrics to the Reference",
+      "TestID": "ml1",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_bass_nin.wav",
-            "1": "audio/outputs_uni/sol_bass1_ni_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_bass1_ni_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_bass1_ni_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_bass1_ni_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_bass1_ni_0.5_4_5_unison_notimbre.wav",
+            "Reference": "audio/uni_alto_ros.mp3",
+            "1": "audio/uni_alto_ros_SIN.mp3",
+            "2": "audio/sol_alto1_ro_0.5_4_0_unison.mp3",
+            "3": "audio/sol_alto1_ro_0.5_4_5_unison.mp3",
+            // "4":"audio/sol_alto1_loc.wav",
+            "anchor":"audio/sol_tenor1_ros.mp3",
         }
     },
     {
-      "Name": "STU4",
-      "TestID": "stu_loc_tenor",
+      "Name": "Please rate the Test Items in terms of similarity of melody and lyrics to the Reference",
+      "TestID": "ml2",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_tenor_loc.wav",
-            "1": "audio/outputs_uni/sol_tenor1_lo_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_tenor1_lo_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_tenor1_lo_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_tenor1_lo_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_tenor1_lo_0.5_4_5_unison_notimbre.wav",
+            "Reference": "audio/uni_tenor_ros.mp3",
+            "1": "audio/uni_tenor_ros_SIN.mp3",
+            "2": "audio/sol_tenor1_ro_0.5_4_0_unison.mp3",
+            "3": "audio/sol_tenor1_ro_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_tenor1_loc.wav",
+            "anchor":"audio/sol_alto1_ros.mp3",
         }
     },
     {
-      "Name": "STU5",
-      "TestID": "stu_ros_alto",
+      "Name": "Please rate the Test Items in terms of similarity of melody and lyrics to the Reference",
+      "TestID": "ml3",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_alto_ros.wav",
-            "1": "audio/outputs_uni/sol_alto1_ro_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_alto1_ro_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_alto1_ro_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_alto1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_alto1_ro_0.5_4_5_unison_notimbre.wav",
+            "Reference": "audio/uni_soprano_nin.mp3",
+            "1": "audio/uni_soprano_nin_SIN.mp3",
+            "2": "audio/sol_soprano1_ni_0.5_4_0_unison.mp3",
+            "3": "audio/sol_soprano1_ni_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_soprano1_ros.wav",
+            "anchor":"audio/sol_bass1_loc.mp3",
         }
     },
     {
-      "Name": "STU6",
-      "TestID": "stu_nin_ten",
+      "Name": "Please rate the Test Items in terms of similarity of melody and lyrics to the Reference",
+      "TestID": "ml4",
       "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_tenor_nin.wav",
-            "1": "audio/outputs_uni/sol_tenor1_ni_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_tenor1_ni_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_tenor1_ni_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_tenor1_ni_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_tenor1_ni_0.5_4_5_unison_notimbre.wav",
-        }
-    },
-    {
-      "Name": "STU7",
-      "TestID": "stu_loc_soprano",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_soprano_loc.wav",
-            "1": "audio/outputs_uni/sol_soprano1_lo_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_soprano1_lo_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_soprano1_lo_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_soprano1_lo_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_soprano1_lo_0.5_4_5_unison_notimbre.wav",
-        }
-    },
-    {
-      "Name": "STU8",
-      "TestID": "stu_ros_bass",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/uni_bass_ros.wav",
-            "1": "audio/outputs_uni/sol_bass1_ro_0_4_0_unison_notimbre.wav",
-            "2": "audio/outputs_uni/sol_bass1_ro_0.5_4_0_unison.wav",
-            "3": "audio/outputs_uni/sol_bass1_ro_0_4_5_unison.wav",
-            "4": "audio/outputs_uni/sol_bass1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/outputs_uni/sol_bass1_ro_0.5_4_5_unison_notimbre.wav",
-        }
-    },
-    {
-      "Name": "QI1",
-      "TestID": "qi_loc_bass",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_bass1_loc.wav",
-            "1": "audio/outputs_uni/sol_bass1_lo_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_bass_loc_SIN_YAM_f0_uni_bass_loc_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_bass1_lo_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_bass1_lo_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_bass_loc.wav",
-        }
-    },
-    {
-      "Name": "QI2",
-      "TestID": "qi_nin_alto",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_alto1_nin.wav",
-            "1": "audio/outputs_uni/sol_alto1_ni_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_alto_nin_SIN_YAM_f0_uni_alto_nin_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_alto1_ni_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_alto1_ni_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_alto_nin.wav",
-        }
-    },
-    {
-      "Name": "QI3",
-      "TestID": "qi_ros_tenor",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_tenor1_ros.wav",
-            "1": "audio/outputs_uni/sol_tenor1_ro_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_tenor_ros_SIN_YAM_f0_uni_tenor_ros_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_tenor1_ro_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_tenor1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_tenor_ros.wav",
-        }
-    },
-    {
-      "Name": "QI4",
-      "TestID": "qi_ros_soprano",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_soprano1_ros.wav",
-            "1": "audio/outputs_uni/sol_soprano1_ro_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_soprano_ros_SIN_YAM_f0_uni_soprano_ros_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_soprano1_ro_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_soprano1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_soprano_ros.wav",
-        }
-    },
-    {
-      "Name": "QI5",
-      "TestID": "qi_loc_tenor",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_tenor1_loc.wav",
-            "1": "audio/outputs_uni/sol_tenor1_lo_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_tenor_loc_SIN_YAM_f0_uni_tenor_loc_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_tenor1_lo_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_tenor1_lo_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_tenor_loc.wav",
-        }
-    },
-    {
-      "Name": "QI6",
-      "TestID": "qi_loc_alto",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_alto1_loc.wav",
-            "1": "audio/outputs_uni/sol_alto1_lo_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_alto_loc_SIN_YAM_f0_uni_alto_loc_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_alto1_lo_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_alto1_lo_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_alto_loc.wav",
-        }
-    },
-    {
-      "Name": "QI7",
-      "TestID": "qi_nin_soprano",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_soprano1_nin.wav",
-            "1": "audio/outputs_uni/sol_soprano1_ni_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_soprano_nin_SIN_YAM_f0_uni_soprano_nin_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_soprano1_ni_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_soprano1_ni_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_soprano_nin.wav",
-        }
-    },
-    {
-      "Name": "QI8",
-      "TestID": "qi_ros_bass",
-      "Files": {
-            "Reference": "audio/Unison_analysis_examples/sol_bass1_ros.wav",
-            "1": "audio/outputs_uni/sol_bass1_ro_0_4_0_unison.wav",
-            "2": "audio/output_unison_avg/uni_bass_ros_SIN_YAM_f0_uni_bass_ros_CREPE.f0.wav",
-            "3": "audio/outputs_uni/sol_bass1_ro_0.5_4_5_unison_notimbre.wav",
-            "4": "audio/outputs_uni/sol_bass1_ro_0.5_4_5_unison.wav",
-            "anchor":"audio/Unison_analysis_examples/uni_bass_ros.wav",
+            "Reference": "audio/uni_bass_loc.mp3",
+            "1": "audio/uni_bass_loc_SIN.mp3",
+            "2": "audio/sol_bass1_lo_0.5_4_0_unison.mp3",
+            "3": "audio/sol_bass1_lo_0.5_4_5_unison.mp3",
+            // "4":"audio/Unison_analysis_examples/sol_bass1_nin.wav",
+            "anchor":"audio/sol_soprano1_nin.mp3",
         }
     }
   ]
